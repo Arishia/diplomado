@@ -27,7 +27,7 @@ Tareas:
 - En el mismo documento compartido, en la pestaña de iCloud y github de todos, completar la infor mación faltante y la liga al repo de github donde se irán haciendo los cambios de entregas y archivos del diplomado (poner la liga no el nombre de usuario).
 - Repasar git y github
 - Repasar lo visto en swift
-- Algortimos: Factorial y serie de Fibonacci
+- Algortimos: Traer el pseudocódigo del Factorial y serie de Fibonacci
 
 ## 2018-02-09 Viernes
 

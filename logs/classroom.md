@@ -2,15 +2,16 @@
 
 Historial de temas visto en clase
 
-## 2018-02-10 Sabado
+## 2018-02-10 Sábado
 
 ### General
+- Se comento sobre markdown
 - Se dio lo básico de git y github para crear repositorio y hacer commits
 - Se presento Swift en general
 - Swift
--- Variables, constantes
--- Inferencia de tipos
-
+  - Variables, constantes
+  - Inferencia de tipos
+  - Todo en swift son objetos
 
 ### Configuraciones
 Se configuró git y gihthub
@@ -26,6 +27,7 @@ Tareas:
 - En el mismo documento compartido, en la pestaña de iCloud y github de todos, completar la infor mación faltante y la liga al repo de github donde se irán haciendo los cambios de entregas y archivos del diplomado (poner la liga no el nombre de usuario).
 - Repasar git y github
 - Repasar lo visto en swift
+- Algortimos: Factorial y serie de Fibonacci
 
 ## 2018-02-09 Viernes
 

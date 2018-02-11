@@ -1,4 +1,4 @@
-# Bitacora de clase
+# Bitácora de clase
 
 Historial de temas visto en clase
 
@@ -19,7 +19,7 @@ Se configuró git y github: Se instaló homebrew, se instaló git, se configurar
 Ejercicios:
 
 - Se terminó de hacer los Pitch de tu App. Presentación individual de la idea a desarrollar en una app. Objetivo y descripción
-- Individualmente, crear un archivo pages en el iCloud personal, poner la información de objetivo y descripción de la app que se presentó en el Pitch. Incluir las imágenes o fotos al material que hice para mi Pitch. Poner ese archivo como compartido por liga y poner esa liga en el archivo de iCloud compartido: "recursos_comunes_diplo_ios.numbers", la liga esta en la presentación de la clase. 
+- Individualmente, crear un archivo pages en el iCloud personal, poner la información de objetivo y descripción de la app que se presentó en el Pitch. Incluir las imágenes o fotos al material que hice para mi Pitch. Poner ese archivo como compartido por liga y poner esa liga en el archivo de iCloud compartido: "recursos_comunes_diplo_ios.numbers", la liga esta en la presentación de la clase.
 
 Tareas:
 

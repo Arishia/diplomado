@@ -18,4 +18,4 @@
 - [Timer para la pantalla](http://timer-timer.com) Timer de fondo para las presentaciones
 - [Swift programming language creator](http://www.nondot.org/sabre/) Página del líder de proyecto, creador del lenguaje Swift
 - [App the human history](http://appdocumentary.com)
-- [App de aplicaciones más usadas](https://www.appannie.com/en/)
+- [App de aplicaciones más usadas](https://www.appannie.com/en/) Estadísticas, tendencias, análisis de uso

@@ -19,3 +19,4 @@
 - [Swift programming language creator](http://www.nondot.org/sabre/) Página del líder de proyecto, creador del lenguaje Swift
 - [App the human history](http://appdocumentary.com) A film exploring what it means to be human in a world of technology
 - [App de aplicaciones más usadas](https://www.appannie.com/en/) Estadísticas, tendencias, análisis de uso
+- [Planet of the apps](https://www.planetoftheapps.com/en-us) Show tipo shark tank, donde se hacen presentaciones de apps iOS. A series about apps and their creators

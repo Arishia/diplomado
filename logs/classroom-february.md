@@ -2,6 +2,15 @@
 
 Historial de temas visto en clase
 
+## 2018-02-17 Viernes
+
+### Swift basico
+
+### Git workflows
+
+
+---
+
 ## 2018-02-10 Sábado
 
 ### General

@@ -1,5 +1,13 @@
 # Links y recursos externos
 
+## 2018-02-17 Viernes
+
+### Swift básico
+
+### Git workflows
+
+---
+
 ## 2018-02-10 Sabado
 
 ### Swift

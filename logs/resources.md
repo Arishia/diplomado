@@ -4,26 +4,25 @@
 
 ### Swift básico
 
-- [Smalltalk] (https://es.wikipedia.org/wiki/Smalltalk)
+- [Smalltalk](https://es.wikipedia.org/wiki/Smalltalk) El papa de todos los POO
 
 ## Computadoras
-- [Xerox Alto] (https://es.wikipedia.org/wiki/Xerox_Alto)
-- [PDP-11] (https://es.wikipedia.org/wiki/PDP-11)
+- [Xerox Alto](https://es.wikipedia.org/wiki/Xerox_Alto)
+- [PDP-11](https://es.wikipedia.org/wiki/PDP-11)
 
 ## Aplicaciones
-- [Pharo Smalltalk] (https://pharo.org)
+- [Pharo](https://pharo.org) Interface builder de Smalltalk
 
 ## Libros
-- [Hooked] (https://itunes.apple.com/mx/book/hooked/id922743888?mt=11)
-- [LEAN UX] (https://itunes.apple.com/us/book/lean-ux/id1153810025?l=es&mt=11)
-- [The Software Paradox] (https://itunes.apple.com/us/book/the-software-paradox/id1017452895?mt=11)
-- [The Pragmatic Programmer] (https://www.nceclusters.no/globalassets/filer/nce/diverse/the-pragmatic-programmer.pdf)
-- [Human Interface Guidelines] (https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+- [Hooked](https://itunes.apple.com/mx/book/hooked/id922743888?mt=11)
+- [LEAN UX](https://itunes.apple.com/us/book/lean-ux/id1153810025?l=es&mt=11)
+- [The Software Paradox](https://itunes.apple.com/us/book/the-software-paradox/id1017452895?mt=11)
+- [The Pragmatic Programmer](https://www.nceclusters.no/globalassets/filer/nce/diverse/the-pragmatic-programmer.pdf)
+- [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
 
 ## Personajes
-- [Keith Alan] (https://en.wikipedia.org/wiki/Alan_Keith)
-- [Sun Microsystems: Write once, run many]
----
+- [Keith Alan](https://en.wikipedia.org/wiki/Alan_Keith) Autor de Smalltalk'72
+- Sun Microsystems: Write once, run many
 
 ## 2018-02-17 Viernes
 

@@ -28,6 +28,15 @@ Historial de temas visto en clase
     ```
 - Ejercicio
   - Factorial
+  ```swift
+    func fact(x) -> Int {
+      if x < 2 {
+        return 1
+      } else {
+        return x * fact(x-1)
+      }
+    }
+  ```
 
 
 ## 2018-02-17 Viernes

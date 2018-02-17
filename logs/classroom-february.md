@@ -2,13 +2,51 @@
 
 Historial de temas visto en clase
 
+## 2018-02-18 Sabado
+
+### Swift basico
+- Introduccion basica de swift sintaxis, gramatica:
+  - Tipos de tipado
+  - Toma de deciciones
+    ```swift
+      if cond {
+        // do something
+      } else {
+        // do something else
+      }
+    ```
+  - Condiciones *(==, >, <, =>, <=, !=)*
+  - Rangos *(0...10, 0..<10, 0..10.reversed())*
+  - Ciclos *(While, Repeat, For)*.
+  - Switch and Case
+  - Funciones
+
+    ```swift
+      func something(arg : Int) -> Void {
+        print(arg)
+      }
+    ```
+- Ejercicio
+  - Factorial
+
+
 ## 2018-02-17 Viernes
 
 ### Swift basico
+- Se comento como funciona swift (frontend, optimizador, backend).
+- Introduccion Xcode
+  - Se comentaron los procesos que se realizan en Xcode para poder generar un app.
+  - Se comento sobre las herramientas y los pasos que se necesitan para poder desarrollar una app.
+
 
 ### Git workflows
+- Se comento el flujo de trabajo con ayuda de branch para tener una mejor organizacion.
+- Se realizo un ejercicio para modificar las branch de un repositorio de git.
+- Se presento un demo de como crear y eliminar una branch.
 
-
+ Ejercicio:
+ - Se realizo un branch dentro de un git personal.
+ - Se creo un equipo dentro de un git se delegaron permisos a miembros que se integraron.
 ---
 
 ## 2018-02-10 Sábado

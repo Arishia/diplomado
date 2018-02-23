@@ -16,16 +16,56 @@ Historial de temas visto en clase
       }
     ```
   - Condiciones *(==, >, <, =>, <=, !=)*
+  ```swift
+    var condicion: Bool = true
+    if condicion {
+      // do something
+    } else {
+     // do something else
+   }
+   ```
   - Rangos *(0...10, 0..<10, 0..10.reversed())*
+  ```swift
+    var rangos = 0...10
+    var rangos2 = 0..<10
+    var rangos3 = (0...10).reversed()              
+    var renagos4 = stride(from: 10, to: 100, by: 4)
+  ```
   - Ciclos *(While, Repeat, For)*.
-  - Switch and Case
-  - Funciones
+  ```swift
+    var valor = 0
 
-    ```swift
-      func something(arg : Int) -> Void {
-        print(arg)
-      }
-    ```
+    while valor < 10{
+      print(valor)
+      valor += 1
+    }
+
+    repeat{
+      print(valor)
+      valor += 1
+    }while valor < 20
+
+    for _ in 0...10{                
+      valor += 1
+    }
+  ```
+- Funciones
+  ```swift
+    func multiplica(_ x: Int, por y: Int)-> Int{           
+      return x * y
+    }
+    multiplica(5, por: 10)
+  ```
+- Overloading
+  ```swift
+  func getValue(_ x: Int) -> Int{
+    return x
+  }
+
+  func getValue(_ x: String) -> String{
+    return x
+  }
+  ```
 - Ejercicio
   - Factorial
   ```swift
@@ -37,6 +77,19 @@ Historial de temas visto en clase
       }
     }
   ```
+- Se comentaron detalladamente cada uno de los siguientes aspectos:
+  - Editing a Storyboard
+  - Xcode Utilities
+  - Centring labels
+  - Model-View-Controller (MVC)
+
+Tarea:
+
+- Realizar Capitulo 1: A Simple iOS Applicatio1n
+
+ Libro: iOS Programming THE BIG NERD RANCH GUIDE -
+*CHRISTIAN KEUR & AARON HILLEGASS*
+
 
 
 ## 2018-02-17 Viernes

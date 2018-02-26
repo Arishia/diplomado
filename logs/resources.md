@@ -1,5 +1,19 @@
 # Links y recursos externos
 
+## 2018-02-24 Sabado
+
+### Swift
+- [Programming Notes for Professionals books](Goalkicker.com) Swift Notes for Professionals
+
+
+## 2018-02-23 Viernes
+
+### Swift
+- [Yesterday´s of Tomorrow: The Xeron Alto | Smaltalk-76](https://www.youtube.com/watch?v=NqKyHEJe9_w)
+- [Steve Jobs Super presentation to NeXT vs SUN](https://www.youtube.com/watch?v=oc40mLKRx7g)
+
+---
+
 ## 2018-02-18 Sabado
 
 ### Swift básico

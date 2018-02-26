@@ -2,6 +2,209 @@
 
 Historial de temas visto en clase
 
+## 2018-02-24 Sabado
+
+### Swift
+- Se comento sobre la estructura del proyecto que realizamos de tarea: A Simple iOS Applicatio1n
+
+- Se comento el proceso funcional de los siguientes puntos:
+  - viewController (metodo Target - action)
+  - UIWindow
+    - subviews
+  - UIResponde
+  - UIView
+
+
+- Se comentaron los temas siguientes:
+  - Goal
+    - View objects
+    - How do wiews get on screen ?
+    - Frame vs Bounds
+    - What else does a view do ?
+      - subviews
+      - superview
+      - addsubview
+      - insertSubview
+    - Auto Layout
+    - Stack View
+    - After Stack View
+
+
+- Solucion de los ejercicios de la clase anterior:
+  - Numero Primo
+    ```swift
+    func isPrime(n: Int) -> Bool{
+      for i in 2..<n{
+        if n % i == 0{
+            return false
+        }
+      }
+      return true
+    }
+    ```
+  - Serie de Fibonacci
+    ```swift
+    func fibo(n: Int){
+      var a = 0, b = 1
+      while b < n{
+        print(b)
+        (a, b) = (b, a + b)
+      }
+    }
+    fibo(n: 88)
+    ```
+  - Palindromo
+    ```swift
+    func palindromo(str: String) -> Bool{
+      return str == String(str.reversed())
+    }
+    palindromo(str: "Cadena a evaluar")
+    ```
+
+  - Funcion que compare dos cadenas y verifique que contenga los mismos caracteres en el mismo o diferente orden
+    ```swift
+    func comparaCadenas(str:String, str2:String) -> Bool{
+      return str.count == str2.count && str.sorted() == str2.sorted()
+    }
+    comparaCadenas(str: "hola", str2: "aloh")
+    print(comparaCadenas(str: "hola", str2: "aloh"))
+    ```
+- Se comento sobre la referencia debil y referencia fuerte
+
+- Se comentaron los diferentes tipos de opcionales
+  - Optional Binding
+    ```Swift
+      var variable: String?
+      if let saludo = variable{
+        print("Saludo \(saludo)")
+      }else{
+        print("No hay nada")
+      }
+    ```
+  - Guard
+    ```Swift
+      func saludos(cadena: String?){
+        guard let saludo = cadena else{
+          print("Algo paso")
+          return
+        }
+        print("No paso nada")
+      }
+    saludos(cadena: (variable))
+    ```
+  - Nil Coalescing
+    ```Swift
+      //var edad: Int = 22                            
+      var edad: Int? = nil                            
+      var edadValida = edad ?? 18                     
+      print(edadValida)
+    ```
+- Se comentaron los tres diferentes tipos de Collections
+    - Array
+    ```Swift
+      var arreglo = [1, 2, 3, 4, 5, 6]
+      let alumnos: [String] = []               
+      let muchosCeros = Array(repeating: 0, count: 100)    
+      print(arreglo[1])                                             
+
+      //Propiedades de los arrays
+      alumnos.isEmpty                                               
+      arreglo.count                                                 
+      arreglo.first                                                 
+      arreglo.last                                                  
+
+      //Tratarlo en caso de ser Optional
+      print(arreglo.last! as Any)                                  
+
+      var arreglo2 = [2,3,4,5,6]
+      arreglo += arreglo2
+      print(arreglo.sorted())                                      
+      arreglo[1...4]
+      arreglo.contains(20)                                        
+      for i in arreglo.sorted(){
+        print(i)
+      }
+    ```
+    - Diccionarios
+    ```Swift
+      var diccionario = ["Pedro":18, "Ana": 22, "Juan": 30]
+      print(diccionario)                                          
+
+      print(diccionario["Pedro"]! as Any)
+
+      var alumnos: [String:Int] = [:]                             
+      alumnos.isEmpty
+      alumnos.count
+
+      var perfil = [
+        "nombre" : "Parra",
+        "carrera" : "Admin"
+        ]
+
+        //Agregar elementos
+        perfil.updateValue("CDMX", forKey: "Estado")                
+        perfil["Edad"] = "18"
+
+        //Remover llave
+        perfil.removeValue(forKey: "Edad")
+        perfil["Estado"] = nil
+
+        //Iterar los diccionarios
+        for (llave, valor) in perfil{
+          print("\(llave) - \(valor)")
+        }
+
+        for (llave) in perfil.keys{
+          print("\(llave), " , terminator: "")
+        }
+    ```
+    - Conjuntos
+    ```Swift
+      var conjunto: Set<Int> = [1,2,3,2,1]
+      print(conjunto)
+    ```
+
+- Tareas Pendientes
+  - Documento de Pitch integrar comentarios realizados y subir en pdf
+  - Ejercicio 1 - Capitulo 1: A Simple iOS Applicatio1n
+  - Ejercicio de Debug
+  - Algoritmos Swift
+
+
+- Proximas Tareas:
+  - Ejercicio 3 - Capitulo 3: Views and the View Hierarchy
+  
+    Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+  - Pitch integrando comentarios
+
+---
+
+## 2018-02-23 Viernes
+
+### Swift
+
+- Ejercicios:
+
+  - Numero Primo
+  - Serie de Fibonacci
+  - Palindromo
+  - Funcion que compare dos cadenas y verifique que contenga los mismos caracteres en el mismo o diferente orden
+
+
+- Se menciono si swift es funcional
+
+- Se hizo un repaso de la clase anterior de el ciclo de vida de una aplicacion:
+  - Espera evento
+  - Detecta interrupcion
+  - Recibe el sistema operativo
+  - windows server
+  - Ingresa a la cola del programa
+  - Application muestra los eventos
+  - Se manda a la vista el evento
+
+  - NSApplication -> AppDelegate -> UIWindow -> viewController
+---
+
 ## 2018-02-18 Sabado
 
 ### Swift basico

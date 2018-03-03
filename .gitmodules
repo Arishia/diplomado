@@ -1,0 +1,3 @@
+[submodule "src/projects/SimpleProfile"]
+	path = src/projects/SimpleProfile
+	url = git@github.com:iOSLabUNAM/SimpleProfile.git

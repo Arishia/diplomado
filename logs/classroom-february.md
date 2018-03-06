@@ -2,6 +2,72 @@
 
 Historial de temas visto en clase
 
+## 2018-03-03 Sabado
+
+### Swift
+
+- Se comentaron las funciones del AppDelegate y se mostro de forma practica que realizaba cada una
+  - applicationWillResignActive
+  - applicationDidEnterBackground
+  - applicationWillEnterForeground
+  - applicationDidBecomeActive
+
+
+- Se comento de las operaciones que realiza el Sistema Operativo para el manejo de notificaciones
+  - Memoria Virtual
+  - Swap
+  - Log
+
+
+- Se realizo un proyecto en xcode donde se importo una imagen se puso un imageView y se colocaron los constrains
+
+- Se vieron herramientas para el desarrollo estetico de los proyectos
+
+- Tarea:
+  - Realizar Capitulo 3: Views and the View Hierarchy
+
+    Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+
+## 2018-03-02 Viernes
+
+### Swift
+
+- Se comentaron los errores del ejercicio What Happened To Me
+
+- Se elaboraron los ejercicios siguentes:
+
+  - Una funcion como parametro de entrada es tenia que entrar un numero random y dependiendo de este era la salida de nuestra funcion
+
+  - Se pidio codificar la logica de un arma de 200 disparos y una ves realizados estos se sobre calentaba el arma y se perdia un escudo al tener cero escudos nos mandaba Game Over
+
+  - Se elaboro un proyecto en xcode donde vimos el launch screen and assents
+
+- Introduccion a Closures
+      var miClosure: (Int, Int) -> Int
+
+      miClosure = {(a: Int, b: Int) -> Int in         
+        return a + b
+      }
+
+
+      let resultado = miClosure(3, 2)
+
+      func ejecutaOperacion(_ closure: (Int, Int) -> Int, a: Int, b: Int){
+        let resultado = closure(a, b)
+        print(resultado)
+      }
+
+      ejecutaOperacion(miClosure, a: 10, b: 20)
+
+      miClosure = {(a, b) in
+        a + b
+      }
+
+      miClosure = {
+        $0 + $1                                  
+      }
+
+
 ## 2018-02-24 Sabado
 
 ### Swift
@@ -173,7 +239,7 @@ Historial de temas visto en clase
 
 - Proximas Tareas:
   - Ejercicio 3 - Capitulo 3: Views and the View Hierarchy
-  
+
     Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
   - Pitch integrando comentarios
 

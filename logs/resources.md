@@ -1,10 +1,32 @@
 # Links y recursos externos
 
+## 2018-03-03 Sabado
+
+### Swift
+  - Herramientas de desarrollo
+- [The super fast color schemes generator!](https://coolors.co)
+- [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- [Icons for everything](https://thenounproject.com)
+- [iOS APP ICONS Generator](https://github.com/smallmuou/ios-icon-generator)
+
+- [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
+
+---
+
+## 2018-03-02 Viernes
+
+### Swift
+- [Packt Build your skills for 2018](https://www.packtpub.com)
+
+
+---
+
 ## 2018-02-24 Sabado
 
 ### Swift
 - [Programming Notes for Professionals books](Goalkicker.com) Swift Notes for Professionals
 
+---
 
 ## 2018-02-23 Viernes
 

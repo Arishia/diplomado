@@ -1,15 +1,15 @@
 # Links y recursos externos
 
-## 2018-03-03 Sabado
+## 2018-03-03 Sábado
 
 ### Swift
-  - Herramientas de desarrollo
-- [The super fast color schemes generator!](https://coolors.co)
-- [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
-- [Icons for everything](https://thenounproject.com)
-- [iOS APP ICONS Generator](https://github.com/smallmuou/ios-icon-generator)
-
-- [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
+- Herramientas de desarrollo y diseño
+  - [The super fast color schemes generator!](https://coolors.co)
+  - [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+  - [Icons for everything](https://thenounproject.com)
+  - [iOS APP ICONS Generator](https://github.com/smallmuou/ios-icon-generator)
+- Código swift
+  - [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
 
 ---
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 2018-02-24 Sabado
+## 2018-02-24 Sábado
 
 ### Swift
 - [Programming Notes for Professionals books](Goalkicker.com) Swift Notes for Professionals
@@ -36,7 +36,7 @@
 
 ---
 
-## 2018-02-18 Sabado
+## 2018-02-18 Sábado
 
 ### Swift básico
 
@@ -71,7 +71,7 @@
 - [Realizar Merge desde Terminal](https://gist.github.com/mcniac/40343c893d26a0bd5bb7)
 ---
 
-## 2018-02-10 Sabado
+## 2018-02-10 Sábado
 
 ### Swift
 - [Swift online](http://online.swiftplayground.run) Online swift playground

@@ -14,16 +14,12 @@
 ---
 
 
-
 ## 2018-03-09 Viernes
 
 ### Swift
 - [Hachette Book Group](https://www.hachettebookgroup.com/titles/sabine-hossenfelder/lost-in-math/9780465094264/)
 
-
 ---
-
-
 
 
 ## 2018-03-03 Sabado
@@ -43,7 +39,6 @@
 
 ### Swift
 - [Packt Build your skills for 2018](https://www.packtpub.com)
-
 
 ---
 

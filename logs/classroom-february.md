@@ -91,7 +91,7 @@ Historial de temas visto en clase
 
       Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
 
-    - Icono y Navegacion de la app
+    - Elaborar icono y Navegacion de la app
 
 ---
 

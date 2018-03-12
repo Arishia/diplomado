@@ -1,5 +1,31 @@
 # Links y recursos externos
 
+## 2018-03-10 Sabado
+
+### Swift
+- [iconfactory](https://blog.iconfactory.com)
+- [The Omni Group](https://www.omnigroup.com)
+- [ Panic](https://panic.com)
+- [Swift Talk objc](https://www.objc.io/issues/)
+- [Cocoa whit Love](https://www.cocoawithlove.com)
+- [Learn Cocoa](http://cocoadevcentral.com)
+- [Big Nerd Ranch](https://www.bignerdranch.com)
+
+---
+
+
+
+## 2018-03-09 Viernes
+
+### Swift
+- [Hachette Book Group](https://www.hachettebookgroup.com/titles/sabine-hossenfelder/lost-in-math/9780465094264/)
+
+
+---
+
+
+
+
 ## 2018-03-03 Sabado
 
 ### Swift

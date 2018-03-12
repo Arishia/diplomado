@@ -2,6 +2,129 @@
 
 Historial de temas visto en clase
 
+## 2018-03-10 Sabado
+
+### Swift
+
+- Enum
+  ```swift
+    enum Dia{
+        case Lunes
+        case Martes
+        case Miercoles
+        case Jueves
+        case Viernes
+    }
+
+    var diaSemana: Dia
+    diaSemana = .Lunes
+
+    switch diaSemana{
+    case .Lunes:
+        print("Otra vez a trabajar")
+    case .Martes:
+        print("Ya quiero que acabe la semana")
+    case .Miercoles:
+        print("Apenas vamos a la mitad")
+    case .Jueves:
+        print("Ya casi es fin de semana")
+    case .Viernes:
+        print("Por fin es viernes")
+    }
+  ```
+- Struct
+  ```swift
+    struct Cuerpo {
+      var altura: Double = 0         
+      var peso: Double = 0
+    }
+
+    var cuerpo = Cuerpo()
+    cuerpo.altura = 1.85
+    cuerpo.peso = 80.0
+  ```
+
+- Class
+  ```swift
+  class Alumno{
+    var numCuenta: String
+
+    init(numCuenta: String){
+        self.numCuenta = numCuenta
+      }
+    }
+
+  var marduk = Profesor(numEmpleo: "0000000000")
+
+  class Cartera{
+      var dinero: Double
+      var abonado: Double{
+          get{
+              print("Intereses actuales: \(dinero * 0.16) pesos")
+              return dinero * 0.16
+          }
+          set{
+              print("Se ha abonado: \(newValue) ")
+              dinero = (dinero * 0.16) + newValue
+              print("Usted tiene: \(dinero)")
+          }
+      }
+
+      init(dinero: Double, abonado: Double){
+          print("Creando cartera con \(dinero) pesos")
+          self.dinero = dinero
+      }
+
+      deinit {
+          print("Destruye una cartera con \(dinero)")
+      }
+  }
+
+  let carterita1 = Cartera(dinero: 23, abonado: 15)
+  carterita1.dinero = 25
+  print(carterita1.abonado)
+  carterita1.abonado = 100
+  ```
+
+  - Tarea:
+    - Realizar Capitulo 4: Text Input and Delegation
+
+      Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+
+    - Icono y Navegacion de la app
+
+---
+
+## 2018-03-09 Viernes
+
+### Swift
+
+- Se realizo un repaso en xcode:
+  - Button
+  - Slider
+  - TextView
+  - Segues
+  - NavigationController
+  - BarButtonItem
+
+
+- Se vieron los temas siguientes:
+- Optionals and Optional Binding
+  - Text Input and Delegation:     
+  - Keyboard properties
+  - How do I use it?
+  - How do I get info back?
+  - Protocolos
+  - Conforming to a Protocol
+
+
+- Se realizo de actividad:
+  - First Responded con un boton quitar el teclado que levanta el SO del textField
+  - First Responded al poner enter en el textField quitar el teclado
+
+---
+
+
 ## 2018-03-03 Sabado
 
 ### Swift
@@ -27,6 +150,8 @@ Historial de temas visto en clase
   - Realizar Capitulo 3: Views and the View Hierarchy
 
     Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+
+---
 
 ## 2018-03-02 Viernes
 
@@ -67,6 +192,7 @@ Historial de temas visto en clase
         $0 + $1                                  
       }
 
+---
 
 ## 2018-02-24 Sabado
 
@@ -359,7 +485,7 @@ Tarea:
  Libro: iOS Programming THE BIG NERD RANCH GUIDE -
 *CHRISTIAN KEUR & AARON HILLEGASS*
 
-
+---
 
 ## 2018-02-17 Viernes
 
@@ -406,6 +532,8 @@ Tareas:
 - Repasar git y github
 - Repasar lo visto en swift
 - Algortimos: Traer el pseudocódigo del Factorial y serie de Fibonacci
+
+---
 
 ## 2018-02-09 Viernes
 

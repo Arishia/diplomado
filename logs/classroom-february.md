@@ -86,12 +86,12 @@ Historial de temas visto en clase
   carterita1.abonado = 100
   ```
 
-  - Tarea:
-    - Realizar Capitulo 4: Text Input and Delegation
+- Tarea:
+  - Realizar Capitulo 4: Text Input and Delegation
 
-      Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
-
-    - Elaborar icono y Navegacion de la app
+    Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+    
+  - Elaborar icono y Navegacion de la app
 
 ---
 
@@ -124,8 +124,7 @@ Historial de temas visto en clase
 
 ---
 
-
-## 2018-03-03 Sabado
+## 2018-03-03 Sábado
 
 ### Swift
 
@@ -194,7 +193,7 @@ Historial de temas visto en clase
 
 ---
 
-## 2018-02-24 Sabado
+## 2018-02-24 Sábado
 
 ### Swift
 - Se comento sobre la estructura del proyecto que realizamos de tarea: A Simple iOS Applicatio1n
@@ -202,7 +201,7 @@ Historial de temas visto en clase
 - Se comento el proceso funcional de los siguientes puntos:
   - viewController (metodo Target - action)
   - UIWindow
-    - subviews
+  - subviews
   - UIResponde
   - UIView
 
@@ -397,7 +396,7 @@ Historial de temas visto en clase
   - NSApplication -> AppDelegate -> UIWindow -> viewController
 ---
 
-## 2018-02-18 Sabado
+## 2018-02-18 Sábado
 
 ### Swift basico
 - Introduccion basica de swift sintaxis, gramatica:

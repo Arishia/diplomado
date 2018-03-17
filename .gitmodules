@@ -1,3 +1,6 @@
 [submodule "src/projects/SimpleProfile"]
 	path = src/projects/SimpleProfile
 	url = git@github.com:iOSLabUNAM/SimpleProfile.git
+[submodule "src/projects/HelloTableView"]
+	path = src/projects/HelloTableView
+	url = git@github.com:iOSLabUNAM/HelloTableView.git

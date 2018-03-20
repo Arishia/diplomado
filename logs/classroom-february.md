@@ -119,7 +119,6 @@ Historial de temas visto en clase
   - Insertar en cada una de las filas de nuestra tabla una imagen programaticamente dependiendo el genero
 
 
-
 ---
 
 ## 2018-03-10 Sabado

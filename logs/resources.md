@@ -18,7 +18,6 @@
 - [Choosing a Business Model](https://developer.apple.com/app-store/business-models/)
 - [iOS 11 Glyphs](https://icons8.com/ios)
 
-
 ---
 
 

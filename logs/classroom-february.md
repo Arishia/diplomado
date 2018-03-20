@@ -2,6 +2,126 @@
 
 Historial de temas visto en clase
 
+## 2018-03-17 Sabado
+
+### Swift
+
+- Se realizo un repaso de la clase pasada sobre Table View Controller:
+  - Setup
+  - Add data source
+  - Load data from data source
+  - Setup sections and rows
+  - Dequeued reusable cell
+
+
+- Ejercicio
+  - Crear un struct user
+  - Crear un array de user
+  - Populate and reder table view
+
+
+- Se comentaron los ciclos de retencion
+
+- Inicializadores requeridos
+  ```swift
+  required init(age: Int){                       
+      //do something
+  }
+  ```
+- Inicializadores convenientes
+  ```swift
+  convenience init(age: Int){
+      //do something
+  }
+  ```
+- Se comento la sobre carga de operadores y como implementarlos
+
+- Protocols
+  ```swift
+  protocol Vehiculo{
+      var wheels: Int { get }
+      func acelerar()
+      func frenar()
+  }
+
+  protocol Pintura{
+      func colorear()
+  }
+
+  class Motito: Vehiculo, Pintura{
+      var wheels: Int {
+          get{
+              return 2
+          }
+      }
+
+      func colorear() {
+          print("Pintar")
+      }
+
+      func acelerar() {
+          print("Acelera...")
+      }
+
+      func frenar() {
+          print("...Frena")
+      }
+  }
+  ```
+
+- Extension
+```swift
+  protocol Reflexion{
+      var tipoReflexion: String { get }
+  }
+
+  extension String: Reflexion{
+      var tipoReflexion: String{
+          return "Muy pensativo el dia de hoy"
+      }
+  }
+
+  let palabrita = "Hola mundo"
+  palabrita.tipoReflexion
+  ```
+
+- Tarea -> Completar las caracteristicas de la app:
+  - Nombre de la App
+  - Categoria
+  - Nombre de la empresa
+  - Edad
+  - Descripcion
+  - Informacion
+  - Navegacion
+
+---
+
+## 2018-03-16 Viernes
+
+### Swift
+
+- Se dejo una actividad para realizar nuestra aplicacion:
+  - Nombre de la App
+  - Categoria
+  - Nombre de la empresa
+  - Edad
+  - Descripcion
+  - Informacion
+  - Navegacion
+
+
+- Se realizo un proyecto para comprender el funcionamiento de forma programatica de los componentes:
+  - Tab Bar Controller
+  - Table View
+
+
+- Actividad:
+  - Insertar en cada una de las filas de nuestra tabla una imagen programaticamente dependiendo el genero
+
+
+
+---
+
 ## 2018-03-10 Sabado
 
 ### Swift
@@ -86,12 +206,12 @@ Historial de temas visto en clase
   carterita1.abonado = 100
   ```
 
-  - Tarea:
-    - Realizar Capitulo 4: Text Input and Delegation
+- Tarea:
+  - Realizar Capitulo 4: Text Input and Delegation
 
       Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
 
-    - Elaborar icono y Navegacion de la app
+  - Elaborar icono y Navegacion de la app
 
 ---
 

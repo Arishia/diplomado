@@ -1,5 +1,27 @@
 # Links y recursos externos
 
+## 2018-03-17 Sabado
+
+### Swift
+- [Table View](https://www.amazon.com/Table-Views-Quick-Guides-Masterminds-ebook/dp/B078RTCZFG)
+- [Mockaroo](https://mockaroo.com)
+- [The Pragmatic Programmer](https://www.nceclusters.no/globalassets/filer/nce/diverse/the-pragmatic-programmer.pdf)
+- [Sketchapp](https://www.sketchappsources.com/tag/ios.html?2)
+
+---
+
+
+## 2018-03-16 Viernes
+
+### Swift
+- [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+- [Choosing a Business Model](https://developer.apple.com/app-store/business-models/)
+- [iOS 11 Glyphs](https://icons8.com/ios)
+
+
+---
+
+
 ## 2018-03-10 Sabado
 
 ### Swift

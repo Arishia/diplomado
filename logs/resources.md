@@ -8,8 +8,6 @@
 - [The Pragmatic Programmer](https://www.nceclusters.no/globalassets/filer/nce/diverse/the-pragmatic-programmer.pdf)
 - [Sketchapp](https://www.sketchappsources.com/tag/ios.html?2)
 
----
-
 
 ## 2018-03-16 Viernes
 
@@ -21,7 +19,6 @@
 
 ---
 
-
 ## 2018-03-10 Sabado
 
 ### Swift
@@ -32,8 +29,6 @@
 - [Cocoa whit Love](https://www.cocoawithlove.com)
 - [Learn Cocoa](http://cocoadevcentral.com)
 - [Big Nerd Ranch](https://www.bignerdranch.com)
-
----
 
 ## 2018-03-09 Viernes
 
@@ -53,8 +48,6 @@
 - Código swift
   - [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
 
----
-
 ## 2018-03-02 Viernes
 
 ### Swift
@@ -66,8 +59,6 @@
 
 ### Swift
 - [Programming Notes for Professionals books](Goalkicker.com) Swift Notes for Professionals
-
----
 
 ## 2018-02-23 Viernes
 
@@ -110,6 +101,7 @@
 
 ### Git workflows
 - [Realizar Merge desde Terminal](https://gist.github.com/mcniac/40343c893d26a0bd5bb7)
+
 ---
 
 ## 2018-02-10 Sábado

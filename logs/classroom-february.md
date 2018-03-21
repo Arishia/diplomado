@@ -24,11 +24,11 @@ Historial de temas visto en clase
 
 - Inicializadores requeridos
   ```swift
-  required init(age: Int){                       
+  required init(age: Int){
       //do something
   }
   ```
-- Inicializadores convenientes
+- Inicializadores de conveniencia
   ```swift
   convenience init(age: Int){
       //do something
@@ -210,7 +210,7 @@ Historial de temas visto en clase
   - Realizar Capitulo 4: Text Input and Delegation
 
     Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
-    
+
   - Elaborar icono y Navegacion de la app
 
 ---

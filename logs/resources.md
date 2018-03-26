@@ -1,5 +1,23 @@
 # Links y recursos externos
 
+
+## 2018-03-17 Sabado
+
+### Swift
+
+- [OpenWeatherMap](https://openweathermap.org)
+
+
+## 2018-03-16 Viernes
+
+### Swift
+
+- [Balsamiq](https://balsamiq.com)
+- [Sketch](https://www.sketchapp.com)
+
+---
+
+
 ## 2018-03-17 Sabado
 
 ### Swift
@@ -18,8 +36,8 @@
 - [Choosing a Business Model](https://developer.apple.com/app-store/business-models/)
 - [iOS 11 Glyphs](https://icons8.com/ios)
 
----
 
+---
 
 ## 2018-03-10 Sabado
 
@@ -32,9 +50,6 @@
 - [Learn Cocoa](http://cocoadevcentral.com)
 - [Big Nerd Ranch](https://www.bignerdranch.com)
 
----
-
-
 ## 2018-03-09 Viernes
 
 ### Swift
@@ -42,19 +57,16 @@
 
 ---
 
-
 ## 2018-03-03 Sabado
 
 ### Swift
-  - Herramientas de desarrollo
-- [The super fast color schemes generator!](https://coolors.co)
-- [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
-- [Icons for everything](https://thenounproject.com)
-- [iOS APP ICONS Generator](https://github.com/smallmuou/ios-icon-generator)
-
-- [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
-
----
+- Herramientas de desarrollo y diseño
+  - [The super fast color schemes generator!](https://coolors.co)
+  - [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+  - [Icons for everything](https://thenounproject.com)
+  - [iOS APP ICONS Generator](https://github.com/smallmuou/ios-icon-generator)
+- Código swift
+  - [How do I shuffle an array in Swift?](https://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift)
 
 ## 2018-03-02 Viernes
 
@@ -63,12 +75,10 @@
 
 ---
 
-## 2018-02-24 Sabado
+## 2018-02-24 Sábado
 
 ### Swift
 - [Programming Notes for Professionals books](Goalkicker.com) Swift Notes for Professionals
-
----
 
 ## 2018-02-23 Viernes
 
@@ -78,7 +88,7 @@
 
 ---
 
-## 2018-02-18 Sabado
+## 2018-02-18 Sábado
 
 ### Swift básico
 
@@ -111,9 +121,10 @@
 
 ### Git workflows
 - [Realizar Merge desde Terminal](https://gist.github.com/mcniac/40343c893d26a0bd5bb7)
+
 ---
 
-## 2018-02-10 Sabado
+## 2018-02-10 Sábado
 
 ### Swift
 - [Swift online](http://online.swiftplayground.run) Online swift playground

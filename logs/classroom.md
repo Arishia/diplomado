@@ -6,6 +6,156 @@ Historial de temas visto en clase
 
 ### Swift
 
+- Se hizo un repaso de los siguientes temas:
+
+
+  - Definiciones
+    - Log
+    - Tarea
+    - Thread
+    - Proceso
+    - Programa
+    - Stacktrace
+    - Paralelismo
+    - Concurrencia
+    - Sistema Operativo
+    - Programa de ejecucion
+    - Vartiables temporales y locales
+
+
+  - Problematicas
+    - Deadlocks
+    - Condiciones de carrera
+
+
+  - Necesidades
+    - Diseño Simple
+    - Expresividad
+    - Eficiencia de Ejecucion
+    - Facilidad para Depuracion
+    - Escalabilidad y balanceo de cargas
+    - Diversidad de HW
+    - Uso multiple de Closures
+
+
+  - Modelos
+
+  - Tecnologias
+
+
+- Se comento las funciones que realiza el main thread para realizar las conexiones:
+  - UIAplication
+  - AppDelegate
+  - UIWindow
+  - RootViewController
+
+
+- Loop infinito del thread principal resumido:
+  - Espera evento
+  - Ruteo evento
+  - Ejecuto metodo viewController
+  - Indico vistas a volver a pintar
+  - Repintado
+  - Libero memoria
+  - Se repite el ciclo
+
+
+- Se realizo un analisis sobre: Storage Latency How far away is the data?
+
+
+- Se realizo un repaso sobre:
+  - Protocolos
+  - Delegate
+  - Singleton
+  - Tipos asociados a protocolos
+
+
+- Tarea:
+  - Darse de alta en OpenWeatherMap (https://openweathermap.org)
+  - Mockups, iconos, repasar capitulo 3, 4, 5 y 6
+
+
+## 2018-03-16 Viernes
+
+### Swift
+
+- Se vio como implementar programaticamente:
+
+  - Label
+  ```swift
+  titleLabel: UILabel = {
+      let lbl = UILabel()
+      lbl.text = "Hello Alerts"
+      lbl.font = UIFont.systemFont(ofSize: 22, weight: .bold)
+      lbl.tintColor = .white
+      lbl.translatesAutoresizingMaskIntoConstraints = false
+      return lbl
+  }()
+  ```
+  - Constraints
+  ```swift
+  NSLayoutConstraint.activate([
+      titleLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+      titleLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10),
+      titleLabel.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: -10),
+      titleLabel.heightAnchor.constraint(equalToConstant: 45)
+  ])
+  ```
+
+  - Boton:
+  ```swift
+  let simpleBtn: UIButton = {
+      let btn = UIButton(type: .system)
+      btn.setTitle("Simple alert", for: .normal)
+      btn.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .bold)
+      btn.tintColor = .white
+      btn.translatesAutoresizingMaskIntoConstraints = false        
+      btn.addTarget(self, action: #selector(tapOkAlert), for: .touchUpInside)
+      return btn
+  }()
+  ```
+
+  - ImageView:
+  ```swift
+  let image: UIImageView = {
+        let imageU = UIImageView()
+        imageU.image = UIImage(named: "M")
+        imageU.contentMode = .scaleAspectFit
+        imageU.translatesAutoresizingMaskIntoConstraints = false
+        return imageU
+    }()
+  ```
+
+  - TextField:
+  ```swift
+  let tituloTextField: UITextField = {
+        let textFieldTitulo = UITextField()
+        let font = UIFont(name: "Arial", size: 20.0)
+        textFieldTitulo.font = font
+        textFieldTitulo.placeholder = "Titulo"
+        textFieldTitulo.text = ""
+        textFieldTitulo.borderStyle = UITextBorderStyle.roundedRect
+        textFieldTitulo.backgroundColor = UIColor.white
+        textFieldTitulo.textColor = UIColor.black
+        textFieldTitulo.translatesAutoresizingMaskIntoConstraints = false
+        return textFieldTitulo
+    }()
+    ```
+
+- Se implementaron los diferentes tipos de alertas:
+  - Default
+  - Destructive
+  - Cancel
+
+
+- Tarea:
+  - Realizar los mockups, organizacion de menus, contenidos
+---
+
+## 2018-03-17 Sabado
+
+### Swift
+
 - Se realizo un repaso de la clase pasada sobre Table View Controller:
   - Setup
   - Add data source
@@ -208,7 +358,7 @@ Historial de temas visto en clase
 - Tarea:
   - Realizar Capitulo 4: Text Input and Delegation
 
-      Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
+    Libro: iOS Programming THE BIG NERD RANCH GUIDE - CHRISTIAN KEUR & AARON HILLEGASS
 
   - Elaborar icono y Navegacion de la app
 
@@ -243,8 +393,7 @@ Historial de temas visto en clase
 
 ---
 
-
-## 2018-03-03 Sabado
+## 2018-03-03 Sábado
 
 ### Swift
 
@@ -313,7 +462,7 @@ Historial de temas visto en clase
 
 ---
 
-## 2018-02-24 Sabado
+## 2018-02-24 Sábado
 
 ### Swift
 - Se comento sobre la estructura del proyecto que realizamos de tarea: A Simple iOS Applicatio1n
@@ -321,7 +470,7 @@ Historial de temas visto en clase
 - Se comento el proceso funcional de los siguientes puntos:
   - viewController (metodo Target - action)
   - UIWindow
-    - subviews
+  - subviews
   - UIResponde
   - UIView
 
@@ -516,7 +665,7 @@ Historial de temas visto en clase
   - NSApplication -> AppDelegate -> UIWindow -> viewController
 ---
 
-## 2018-02-18 Sabado
+## 2018-02-18 Sábado
 
 ### Swift basico
 - Introduccion basica de swift sintaxis, gramatica:

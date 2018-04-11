@@ -2,7 +2,96 @@
 
 Historial de temas visto en clase
 
-## 2018-03-17 Sabado
+
+## 2018-04-07 Sabado
+
+### Swift
+
+- Concluimos el ejercicio de la clase pasada donde por medio de un servicio realizabamos el llenado de una tabla
+
+- Genericos
+  ```swift
+  func swapGenerics<generico>(a: inout generico, b: inout generico){
+    let temp = a
+    a = b
+    b = temp
+  }
+
+  var a1 = 5
+  var b1 = 10
+  swapGenerics(a: &a1, b: &b1)
+  print("\(a1) - \(b1)")
+
+  ---------------------------------------------
+
+  class generica<T>{
+    // do something
+  }
+
+  class Generica<T, E>{
+
+  }
+
+  let objetoGenerico = Generica<String, Int>()
+
+  enum enumGenerico<T>{
+    // do something
+  }
+  ```
+
+- Tipos asociados
+  ```swift
+  struct List<T>{
+    var items = [T]()
+    mutating func add(item: T){
+        items.append(item)
+    }
+
+    func getItemAtIndex(index: Int) -> T?{
+        if items.count > index{
+            return items[index]
+        }else{
+            return nil
+        }
+    }
+
+    subscript(index: Int) -> T?{
+        return getItemAtIndex(index: index)
+    }
+
+    subscript(r: CountableClosedRange<Int>) -> [T]{
+        get{
+            return Array(items[r.lowerBound ... r.upperBound])
+        }
+    }
+  }
+
+    var MyList = List<Int>()
+    MyList.add(item: 3)
+    MyList.add(item: 7)
+    MyList.add(item: 29)
+    MyList.add(item: 13)
+    MyList.add(item: 58)
+
+    var valores = MyList[0...3]
+    print(valores)
+  ```
+
+
+## 2018-04-06 Viernes
+
+### Swift
+
+- Se realizo un repaso general de los closures para posteriormente consumir un servicio por medio de un json
+
+- Se realizaron dos ejercicios en los que por medio de json se consumian servicios diferentes:
+
+  - Capturar el lugar y el clima a traves de un servicio
+  - LLenar una tabla con imagenes, nombre, caracteristica y descripcion de los objetos a traves de un servicio
+
+---
+
+## 2018-03-24 Sabado
 
 ### Swift
 
@@ -75,7 +164,7 @@ Historial de temas visto en clase
   - Mockups, iconos, repasar capitulo 3, 4, 5 y 6
 
 
-## 2018-03-16 Viernes
+## 2018-03-23 Viernes
 
 ### Swift
 

@@ -1,14 +1,37 @@
 # Links y recursos externos
 
 
-## 2018-03-17 Sabado
+## 2018-04-07 Sabado
+
+### Swift
+
+- [GitHub Developer](https://developer.github.com)
+- [JWT](https://jwt.io)
+
+
+## 2018-04-06 Viernes
+
+### Swift
+
+- [Swift for TensorFlow](https://www.youtube.com/watch?v=Yze693W4MaU)
+- [Brewery DB](http://www.brewerydb.com)
+- [OAuth 2.0](https://oauth.net/2/)
+
+## Programas
+
+- [Wireshark](https://www.wireshark.org)
+- [libxml](http://xmlsoft.org)
+
+---
+
+## 2018-03-24 Sabado
 
 ### Swift
 
 - [OpenWeatherMap](https://openweathermap.org)
 
 
-## 2018-03-16 Viernes
+## 2018-03-23 Viernes
 
 ### Swift
 

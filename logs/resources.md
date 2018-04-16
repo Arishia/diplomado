@@ -1,6 +1,23 @@
 # Links y recursos externos
 
 
+## 2018-04-14 Sabado
+
+## Programas
+
+- [WRK](http://fredyfx.com/post/herramienta-para-pruebas-de-rendimiento-wrk/)
+
+
+## 2018-04-13 Viernes
+
+### Swift
+
+- [goodreads](https://www.goodreads.com/author/quotes/25215.Martin_Fowler)
+- [realm](https://realm.io)
+- [SQLite](https://www.sqlite.org/index.html)
+
+---
+
 ## 2018-04-07 Sabado
 
 ### Swift

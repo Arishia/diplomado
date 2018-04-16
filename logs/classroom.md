@@ -3,6 +3,144 @@
 Historial de temas visto en clase
 
 
+## 2018-04-14 Sabado
+
+### Swift
+
+- Se explico detalladamente el programa de la clase pasada
+
+- Se realizo una exposicion donde se nos proporciono unos tips de como convertirse en un buen desarrollador
+
+- Se dieron consejos para la elaboracion de un proyecto
+  - Las clases no pueden tener más de cien líneas de código
+  - Los métodos no pueden tener más de cinco líneas de código
+  - Pasar no más de cuatro parámetros en un método
+  - Los controladores pueden instanciar solo un objeto
+
+
+- Persistencia de datos
+  - UserDefaults
+  - FileManager
+    - Documents
+    - Cache
+    - Temporal
+  - NSCache
+  - Keychain
+  - CoreData
+    - Guide
+    - Persistent Store Features
+
+
+- Se explico el funcionamiento del ejercicio LocalSettings analizandolo detalladamente
+
+## 2018-04-13 Viernes
+
+### Swift
+
+- Se comentaron los siguientes temas:
+
+- Persistence: I want to persist my application data
+  - Where
+  - What
+  - How
+  - When
+
+
+  - Application Sandbox
+    - Documents
+    - Library
+      - Cache
+      - Preferences
+    - tmp   
+
+
+  - Locating the Documents Directory
+
+
+  - Read/Write Binary Data
+    - Disk
+    - System
+    - Default
+    - Cache
+
+
+  - Read/Write Textual Data
+
+
+  - Read/Write Custom Objects
+  ```Swift
+  protocol NSCoding {
+    //When we want to load an object from disk...
+    init?(coder aDecoder: NCoder)
+
+    //When we want to save an object to disk...
+    func encode(with aCoder: NSCoder)
+  }
+  ```
+
+  - Conforming to NSCoding
+  ```Swift
+  class Item: NSOject, NSCoding{
+      required init(coder aDecoder: NSCoder){
+        // do something
+      }
+  }
+  ```
+
+  - NSKeyedArchiver and NSKeyedUnarchiver
+  ```Swift
+  func saveChanges() -> Bool {
+      print("Saving items to: \(itemArchiveURL.path)")
+      return NSKeyedArchiver.archiveRootObject(allItems, toFile: itemArchiveURL.path)
+  }
+  ```
+
+  - Archiving an Array of Items
+
+
+  - When to save
+
+
+  - Application Lifecycle: Application States and Transitions
+    - Not Running
+    - Active
+    - Inactive
+    - Background
+    - Suspended
+
+
+  - Basic Core Data
+
+
+  - Core Data: Classes
+
+
+  - Model
+
+
+  - NSPersistentContainer
+  ```Swift
+    let persistentContainer: NSPersistentContainer = {
+    let container = NSPersistentContainer(name: "Photorama")
+    container.loadPersistentStores { (description, error) in
+      if let error = error {
+        print("Error setting up Core Data (\(error)).")
+      }
+    }
+    return container
+    }()
+  ```
+
+  - Fetching
+
+  - Predicates
+
+  - NSManagedObject
+
+- Se proporciono un programa para analizar y verlo la siguiente clase
+
+---
+
 ## 2018-04-07 Sabado
 
 ### Swift

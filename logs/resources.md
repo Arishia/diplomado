@@ -1,5 +1,23 @@
 # Links y recursos externos
 
+## 2018-04-21 Sabado
+
+## Swift
+
+- [The Pragmatic Programmer](https://www.amazon.es/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+
+## Aplicacion
+
+- [Grasshopper: Learn to Code for Free](https://play.google.com/store/apps/details?id=com.area120.grasshopper)
+
+## 2018-04-20 Viernes
+
+### Swift
+
+- [Infotec](https://www.infotec.mx/work/models/infotec/Resource/1012/6/images/Estudio_Habitos_Usuarios_2017.pdf)
+- [Wiki diplomado](https://github.com/iOSLabUNAM/diplomado/wiki)
+
+---
 
 ## 2018-04-14 Sabado
 

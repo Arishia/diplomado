@@ -2,6 +2,34 @@
 
 Historial de temas visto en clase
 
+## 2018-04-21 Sabado
+
+### Swift
+
+- Se creo un proyecto desde desde cero con el objetivo de ver programaticamente el uso de CollectionView donde la aplicacion constaba de crear listas de categorias de musica que contendrian albums y ha su vez estos tendrian imagen titulo y genero de forma dinamica
+
+- Se realizo un CollectionView dentro de otro CollectionView para que este dinamicamente al crear una categoria automaticamente se creara otra lista con los albums que contendria
+
+- Una vez realizado estos puntos el objetivo del proyecto era realizar un consumo de datos a iTunes para que nuestra aplicacion nos mistrara las listas de categorias de la musica que contenia y los albums de la misma
+
+
+## 2018-04-20 Viernes
+
+### Swift
+
+- Se explico el funcionamiento de la aplicacion SimpleNetwork con la finalidad de representar un caso de cosumo de datos donde una empresa genera sus propios servicios con un diseño especifico para su uso
+
+- Se explico el funcionamiento del codigo para posteriormente dejar como actividad la realizacion de una aplicacion que constaba de tener una vista de Login de una aplicacion general la que realizara una conexion por URLRequest con el objetivo de realizar las operaciones:
+
+  - GET
+  - POST
+  - PUT
+  - PATCH
+  - DELETE
+  - HEADER
+  - OPTIONS
+
+---
 
 ## 2018-04-14 Sabado
 

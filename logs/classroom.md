@@ -2,6 +2,116 @@
 
 Historial de temas visto en clase
 
+## 2018-04-28 Sabado
+
+### Swift
+
+- Se explicaron en esta secion una serie de temas relacionados con el manejo de la camara en nuestro dispositivo:
+
+
+- Camera
+- UIImagePickerController
+- Source Types
+- Getting data back
+- How do I get the image
+- Memory is limited
+- Image Store Uses NSCache
+
+- Se elaboro el ejercicio del capitulo 15 del libro: iOS Programming The Big Nerd Ranch Guide
+
+- Otro de los temas que se vieron en esta sesion fue TDD (Test First Development) dode se vieron los siguientes temas:
+
+- Desarrollo Orientado a Pruebas
+
+
+- Generalmente se sigue la siguiente secuencia de pasos:
+  - Añadir una prueba
+  - Ejecutar todas las pruebas y ver si la nueva falla
+  - Escribir un código
+  - Ejecutar pruebas
+  - Refactorizar el código
+  - Repetir
+
+
+- Pruebas
+    - Unitarias
+    - Interface
+    - Integracion
+
+
+- Assertions
+  - XCTAssert
+  - XCTAssertTrue
+  - XCTAssertFalse
+  - XCTAssertNil
+  - XCTAssertNotNil
+  - XCTAssertThrowsError
+  - XCTAssertNotThrows
+  - XCTAssertEqual
+  - XCTAssertNotEqual
+  - XCTAssertGreaterThan
+  - XCTAssertGreaterThanOrEqual
+  - XCTAssertLessThan
+  - XCTAssertLessThanOrEqual
+
+
+- Con el analisis de estos puntos se realizo un ejemplo de una aplicacion la cual contenia un desarrollo orientado a pruebas para reforzar y ver de forma aplicada estos temas
+
+
+## 2018-04-27 Viernes
+
+### Swift
+
+- Debugging tips
+
+- Debugging Interactive
+  - Configuracion
+  - Consola
+  - Demo
+
+
+- Tipos de Break Point
+  - Condicionales
+  - Simbolicos
+  - Excepciones
+
+
+- Reusando Break Points
+  - Configuracion
+  - Shared Break Point
+
+
+- Tipos de Crashes
+  - Watchdogs
+  - Usuario termina la app
+  - Poca memoria
+  - Acceso invalido a memoria
+  - Envio de mensaje a un objeto liberado
+
+
+- Timeout  
+  - Si el código de excepción dice Bad Food (Crashea por un watchDogs)
+
+
+- User Force-Quit
+  - Si el código de excepción dice Dead Fall (Crashea por un Force-Quit)
+
+
+- Low Memory Logs
+  - Cuando se acaba la memoria muestra un estado
+
+
+- Crash Report
+  - Si el código de excepción dice Bad Access
+
+
+- Se explico el funcionamiento de cada uno de estos puntos en Xcode usando una aplicacion general para ver el funcionamiento y la utilidad de estas herramientas que se nos proporcionan realizando un Debugging de forma adecuada sin hacer intrusivo nuestro codigo
+
+
+- Se continuo con la elaboracion de la semana pasada de hacer el consumo de servicio de iTunes para llenar dinamicamente nuestros CollectionView
+
+---
+
 ## 2018-04-21 Sabado
 
 ### Swift
@@ -10,7 +120,7 @@ Historial de temas visto en clase
 
 - Se realizo un CollectionView dentro de otro CollectionView para que este dinamicamente al crear una categoria automaticamente se creara otra lista con los albums que contendria
 
-- Una vez realizado estos puntos el objetivo del proyecto era realizar un consumo de datos a iTunes para que nuestra aplicacion nos mistrara las listas de categorias de la musica que contenia y los albums de la misma
+- Una vez realizado estos puntos el objetivo del proyecto era realizar un consumo de datos a iTunes para que nuestra aplicacion nos mostrara las listas de categorias de la musica que contenia y los albums de la misma
 
 
 ## 2018-04-20 Viernes

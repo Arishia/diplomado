@@ -1,5 +1,34 @@
 # Links y recursos externos
 
+## 2018-04-28 Sabado
+
+## Swift
+
+- [The Pragmatic Bookshelf](https://pragprog.com/book/esswift/swift-style)
+- [Flight School Guide to Swift Codable](https://gumroad.com/l/codable)
+- [Desarrollo Orientado a Pruebas](https://github.com/iOSLabUNAM/diplomado/wiki/TDD)
+- [Amaca](https://github.com/3zcurdia/Amaca)
+- [DVR: Network Testing in Swift](https://academy.realm.io/posts/soffes-swift-network-testing-dvr/)
+- [Travis CI](https://travis-ci.org/3zcurdia)
+
+
+## 2018-04-27 Viernes
+
+### Swift
+
+- [Swift for TensorFlow is now Open Sourced on GitHub](https://www.analyticsvidhya.com/blog/2018/04/swift-tensorflow-now-open-sourced-github/)
+- [Behind-the scenes improvements in Swift 4.1](https://medium.com/@slavapestov/behind-the-scenes-improvements-in-swift-4-1-269dd56e30c2)
+- [Lottie design](https://airbnb.design/lottie/)
+- [Haiku](https://www.haiku.ai)
+
+### Aplicacion
+
+- [JSON Pretty Print](http://jsonprettyprint.com)
+- [JSONLint](https://jsonlint.com)
+- [JSON Viewer](http://jsonviewer.stack.hu)
+
+---
+
 ## 2018-04-21 Sabado
 
 ## Swift

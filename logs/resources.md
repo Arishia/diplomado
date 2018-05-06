@@ -1,5 +1,26 @@
 # Links y recursos externos
 
+## 2018-05-05 Sabado
+
+## Swift
+
+- [Comenzar a diseñar mi app ](https://github.com/iOSLabUNAM/diplomado/blob/master/resources/keynotes/comenzar_diseniar_app.pdf)
+
+
+## 2018-05-04 Viernes
+
+### Swift
+
+- [Meetup](https://www.meetup.com/es/Elixir-Mexico-City/)
+- [ASYMCO](http://www.asymco.com/page/2/?s=cash)
+- [Core Motion](https://developer.apple.com/documentation/coremotion)
+
+### Libro
+
+- [The Code Book](https://www.amazon.com.mx/Code-Book-Science-Secrecy-Cryptography/dp/0385495323/ref=sr_1_1/140-4062939-6446147?ie=UTF8&qid=1525632868&sr=8-1&keywords=the+code+book)
+
+---
+
 ## 2018-04-28 Sabado
 
 ## Swift

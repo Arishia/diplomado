@@ -2,6 +2,128 @@
 
 Historial de temas visto en clase
 
+## 2018-05-06 Sabado
+
+### Swift
+
+- Wireframe es un dibujo tecnico, un plan de accion visual que muestra:
+
+  - Esquema de pantallas y Navegacion
+  - Ilustra las interfaces y sus conexiones
+  - Concepto visual simple de una app futura
+  - Da una idea del diseño y de como funciona la app
+  - Es un mapa para la construccion de la app
+  - Distribucion del espacio en pantalla
+  - Propiedades de contenido
+  - Funciones disponibles
+  - Acciones planeadas
+  - Relaciones entre pantallas
+  - Un mapa mental de la app
+
+
+- Contiene:
+
+  - Elementos de la pantalla
+  - Categorias de objetos
+  - Orden del contenido
+  - Esquema de elementos
+
+
+- No contiene:
+
+  - Elementos de diseño finales
+  - Colores
+  - Imagenes finales
+  - Fuente
+  - Logos
+
+
+- Mockup:
+
+  - Es el siguiente paso de un wireframe
+  - Incluye colores, textos, fuentes, imagenes y logos
+
+
+- Prototipo
+
+  - Posteriormente hay que probar la interaccion con el usuario
+  - Incluye UX
+  - No tiene toda la funcionalidad pero muestra la idea de la funcionalidad
+
+
+- Realizamos una aplicacion con el API de Firebase la cual consiste en un registro de usuarios validado por correo electronico en firebase, ya registrado inicia sesion y por medio de autentificacion es validado por firebase y muestra otra view
+
+
+- Tarea: Subir wireframe de su aplicacion
+
+
+## 2018-05-04 Viernes
+
+### Swift
+
+- Creating Secure Applications iOS
+  - Why are you here?
+  - Avoid the consequences of security issues
+  - Realize that security is complicated
+  - Determine optimal ways to prevent security issues
+
+
+- Content
+  - Basics
+  - Hacking tools
+  - iOS Security technologies
+  - Myths about Security
+  - Common Mistakes
+
+
+- What is Security ?
+
+
+- CIA triad
+  - Confidenciality
+  - Integrity
+  - Availability
+
+
+- Security Controls
+  - Identification
+  - Authentication
+  - Authorization
+  - Accountability
+
+
+- Security Principles
+  - Least Privilege
+  - Denfense in Depht
+  - Compartmentalization
+
+
+- Basics
+  - Steganography
+    - Cryptography
+    - Cryptanalysis
+  - Encryption
+
+
+  - Code & Cipher
+    - Transposition & substitution
+  - Cryptosystem
+
+
+  - Pseudo Random Numbers     
+  - Degests (SHA-3)            
+  - Symetric Keys (AES)         
+  - Asymetric Keys (RSA)      
+  - Certificates (X.509)        
+  - Key Derivation Functions (PBKDF2)
+
+
+- Se realizo la aplicacion (HelloAcelerometer-master) para ver el funcionamiento del acelerometro y ver como mide los cambios en la velocidad a lo largo de un eje
+
+
+---
+
+
 ## 2018-04-28 Sabado
 
 ### Swift
